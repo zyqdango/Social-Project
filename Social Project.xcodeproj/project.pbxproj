@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8336FC4C1F4CFD6E00E9B60D /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8336FC4B1F4CFD6E00E9B60D /* SCTabBarController.m */; };
 		83C6597F1F46980800409F3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C6597E1F46980800409F3A /* main.m */; };
 		83C659821F46980800409F3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C659811F46980800409F3A /* AppDelegate.m */; };
-		83C659851F46980800409F3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C659841F46980800409F3A /* ViewController.m */; };
-		83C659881F46980800409F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C659861F46980800409F3A /* Main.storyboard */; };
 		83C6598A1F46980800409F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C659891F46980800409F3A /* Assets.xcassets */; };
 		83C6598D1F46980800409F3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C6598B1F46980800409F3A /* LaunchScreen.storyboard */; };
 		83C659981F46980800409F3A /* Social_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C659971F46980800409F3A /* Social_ProjectTests.m */; };
 		83C659A31F46980900409F3A /* Social_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C659A21F46980900409F3A /* Social_ProjectUITests.m */; };
+		83C659B31F46989800409F3A /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C659B21F46989800409F3A /* SCPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8336FC4A1F4CFD6E00E9B60D /* SCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCTabBarController.h; path = ViewController/SCTabBarController.h; sourceTree = "<group>"; };
+		8336FC4B1F4CFD6E00E9B60D /* SCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCTabBarController.m; path = ViewController/SCTabBarController.m; sourceTree = "<group>"; };
 		83C6597A1F46980800409F3A /* Social Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C6597E1F46980800409F3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83C659801F46980800409F3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83C659811F46980800409F3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83C659831F46980800409F3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83C659841F46980800409F3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		83C659871F46980800409F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83C659891F46980800409F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83C6598C1F46980800409F3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83C6598E1F46980800409F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		83C6599E1F46980900409F3A /* Social ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C659A21F46980900409F3A /* Social_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Social_ProjectUITests.m; sourceTree = "<group>"; };
 		83C659A41F46980900409F3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C659B11F46989800409F3A /* SCPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCPost.h; path = Model/SCPost.h; sourceTree = "<group>"; };
+		83C659B21F46989800409F3A /* SCPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCPost.m; path = Model/SCPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8336FC491F4CFCD900E9B60D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8336FC4A1F4CFD6E00E9B60D /* SCTabBarController.h */,
+				8336FC4B1F4CFD6E00E9B60D /* SCTabBarController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		83C659711F46980800409F3A = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +111,10 @@
 		83C6597C1F46980800409F3A /* Social Project */ = {
 			isa = PBXGroup;
 			children = (
+				8336FC491F4CFCD900E9B60D /* ViewController */,
+				83C659B01F46981400409F3A /* Model */,
 				83C659801F46980800409F3A /* AppDelegate.h */,
 				83C659811F46980800409F3A /* AppDelegate.m */,
-				83C659831F46980800409F3A /* ViewController.h */,
-				83C659841F46980800409F3A /* ViewController.m */,
-				83C659861F46980800409F3A /* Main.storyboard */,
 				83C659891F46980800409F3A /* Assets.xcassets */,
 				83C6598B1F46980800409F3A /* LaunchScreen.storyboard */,
 				83C6598E1F46980800409F3A /* Info.plist */,
@@ -138,6 +147,15 @@
 				83C659A41F46980900409F3A /* Info.plist */,
 			);
 			path = "Social ProjectUITests";
+			sourceTree = "<group>";
+		};
+		83C659B01F46981400409F3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83C659B11F46989800409F3A /* SCPost.h */,
+				83C659B21F46989800409F3A /* SCPost.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +269,6 @@
 			files = (
 				83C6598D1F46980800409F3A /* LaunchScreen.storyboard in Resources */,
 				83C6598A1F46980800409F3A /* Assets.xcassets in Resources */,
-				83C659881F46980800409F3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83C659851F46980800409F3A /* ViewController.m in Sources */,
 				83C659821F46980800409F3A /* AppDelegate.m in Sources */,
+				8336FC4C1F4CFD6E00E9B60D /* SCTabBarController.m in Sources */,
 				83C6597F1F46980800409F3A /* main.m in Sources */,
+				83C659B31F46989800409F3A /* SCPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		83C659861F46980800409F3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				83C659871F46980800409F3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		83C6598B1F46980800409F3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -518,6 +528,7 @@
 				83C659A91F46980900409F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C659AA1F46980900409F3A /* Build configuration list for PBXNativeTarget "Social ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +537,7 @@
 				83C659AC1F46980900409F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83C659AD1F46980900409F3A /* Build configuration list for PBXNativeTarget "Social ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +546,7 @@
 				83C659AF1F46980900409F3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
